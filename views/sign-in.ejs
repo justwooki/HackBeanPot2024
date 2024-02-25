@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css-files/sign-in.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav class="navigation">
+          <div class="left-links">
+            <img
+              class="logo"
+              src="./images/logo.png"
+              alt="logo"
+              height="50px"
+              onclick="window.location.href='/'"
+            />
+            <button
+              class="about-us"
+              onclick="window.location.href='/about'"
+            >
+              About Us
+            </button>
+          </div>
+          <div class="right-links">
+            <button class="log-in" onclick="window.location.href='/login'">
+              Log In
+            </button>
+            <button
+              class="sign-in"
+              onclick="window.location.href ='/sign-in'"
+            >
+              Sign In
+            </button>
+          </div>
+        </nav>
+      </header>
+      <main class="main-content">
+        <form action="process-login.php" method="POST">
+          <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required />
+          </div>
+          <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <div>
+            <label for="full name">Full name:</label>
+            <input type="text" id="full name" name="full name" required />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required />
+          </div>
+          <button
+            type="register"
+            onclick="window.location.href = '/home'"
+          >
+            Register
+          </button>
+        </form>
+      </main>
+    </div>
+    <footer class="footer"></footer>
+  </body>
+</html>
