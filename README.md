@@ -40,4 +40,4 @@ Try it out here!
 <https://github.com/justwooki/HackBeanPot2024>
 
 ### Credits
-This project was designed for the [2024 *HackBeanpot* event](https://hackbeanpot.com/) by Justin Kim, Yujin Park, Emily Ye, and Oscar Fang.
+This project was designed for the [2024 *HackBeanpot* event](https://hackbeanpot.com/) by Justin Kim, Yujin Park, Emily Ye, and Oscar Fang. 
